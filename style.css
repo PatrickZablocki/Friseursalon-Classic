@@ -1,0 +1,68 @@
+@import url('general.css');
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:var(--background-color);
+    color: #333;
+    line-height: 1.6;
+}
+/* Header container styling */
+.header_container {
+    text-align: center; /* Center h1 */
+    padding: 20px;
+}
+/* Animation for the h1 title */
+@keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-title {
+    font-size: 3rem;
+    color: var(--primary-color); /* Primary color */
+    animation: titleAnimation 1s ease-out;
+    text-shadow:var(--text-shadow);
+}
+
+/* Navigation styling */
+.nav_links ul {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center links */
+    gap: 30px; /* Space between the links */
+    margin-top: 20px; /* Space between h1 and nav */
+}
+
+.nav_links li {
+    list-style-type: none;
+}
+
+.nav_links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav_links a:hover {
+    color: #ffaa00; /* Secondary color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .animated-title {
+        font-size: 2.5rem; /* Slightly smaller font size for mobile */
+    }
+    .nav_links ul {
+        flex-direction: column; /* Stack links vertically on small screens */
+        gap: 15px; /* Reduced gap */
+    }
+}
+
+/* Heres come's the Styling for the Startside */

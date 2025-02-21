@@ -1,0 +1,30 @@
+    /* Apply box-sizing to all elements, pseudo-elements */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+:root {
+    /* Variable for the Primary Color on the Website */
+
+    --primary-color:#ff9500;
+    --secondary-color:#ffaa00;
+    --background-color:#f5ba6d;
+    --text-color:#333;
+    --link-color:#0066cc;
+    --link-hover-color:#ff6600;
+    --shadow-color:rgba(0, 0, 0, 0.1);
+    --text-shadow:5px 5px 5px #333;
+
+    /* Font families */
+    --font-family: 'Arial', sans-serif;
+    --font-family-serif: 'Georgia', serif;
+
+    /* Here comes the Variable for the Size's */
+
+    --Size-XL:3rem;
+    --Size-L:2.5rem;
+    --Size-M:2rem;
+    --Size-S:1.5rem;
+    --Size-XS:1.2rem;
+}
