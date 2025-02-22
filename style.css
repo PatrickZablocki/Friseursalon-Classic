@@ -65,4 +65,38 @@ body {
     }
 }
 
-/* Heres come's the Styling for the Startside */
+/* Heres come's the Styling for the main section */
+
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 15px 15px #333;
+}
+
+.Welcome_image{
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+    object-position: 70% 30%;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .main_container {
+        padding: 10px;
+    }
+
+    .Welcome_image {
+        height: 400px; 
+        object-position: 50% 50%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .Welcome_image {
+        height: 300px; 
+    }
+}
+
+
