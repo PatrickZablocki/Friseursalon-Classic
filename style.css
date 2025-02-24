@@ -80,6 +80,22 @@ body {
     object-fit: cover;
     object-position: 70% 30%;
 }
+.text_container{
+    display:block;
+    justify-content: center;
+    text-align: center;
+}
+.text_container h2{
+    font-size: var(--Size-M);
+    text-shadow: 10px 10px 10px #333;
+    text-decoration: underline;
+}
+.text_container strong {
+    font-size: var(--Size-XS);
+}
+.text_container p{
+    font-weight: bold;
+}
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
@@ -99,4 +115,4 @@ body {
     }
 }
 
-
+/* Here comes the Styling for the Rezensionen */
