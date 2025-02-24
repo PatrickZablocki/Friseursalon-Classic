@@ -115,4 +115,68 @@ body {
     }
 }
 
-/* Here comes the Styling for the Rezensionen */
+/* Here comes the Styling for the Review */
+
+.reviews {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.review_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.review_wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.review_track {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.review {
+    min-width: 47%;
+    box-sizing: border-box;
+    padding: 20px;
+    background:var(--background-color);
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #333;
+}
+
+.review_text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review_author {
+    font-weight: bold;
+    color: #555;
+}
+
+.nav_button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: background 0.3s ease;
+}
+
+.nav_button:hover {
+    background: #555;
+}
+
